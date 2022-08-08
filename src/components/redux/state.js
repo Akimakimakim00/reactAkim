@@ -1,3 +1,5 @@
+import { rerenderEntireTree } from "../../render";
+
 let state = {
   siteBar: [
     { id: 1, name: "Valera" },
@@ -36,13 +38,14 @@ let state = {
 };
 
 export let addPost = (postMessage) => {
+  console.log(postMessage);
   let newPost = {
     id: 5,
     massage: postMessage,
     like: "0",
   };
   state.profilePage.posts.push(newPost);
-  //rerenderEntireTree(state);
+  rerenderEntireTree(state);
 };
 
 export default state;
