@@ -1,0 +1,33 @@
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+dialogsItems.active {
+    color: white;
+}
+
+.massages {
+    padding: 10px;
+}
+
+.massages .massage {
+}
+
+.sendMes {
+    display: flex;
+    margin-top: 2%;
+}
+
+.button {
+}
+
+
+
+
+

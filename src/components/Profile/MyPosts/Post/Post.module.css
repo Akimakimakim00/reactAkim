@@ -1,0 +1,16 @@
+.item img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.item {
+    margin-bottom: 2%;
+    background-color: #9bdede;
+    width: 19%;
+    border-radius: 9%;
+    height: 23%;
+}
+
+.item:last-child {
+    margin: 0;
+}

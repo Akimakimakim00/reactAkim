@@ -1,0 +1,29 @@
+.item img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.item {
+    margin-top: 2%;
+    background-color: #9bdede;
+    width: 19%;
+    border-radius: 9%;
+    height: 23%;
+}
+
+.avaName {
+    display: flex;
+    margin-left: 3%;
+    padding-top: 6%;
+}
+
+.name {
+    align-self: center;
+    margin-left: 4%;
+}
+
+.dialog {
+    margin-top: 1%;
+    margin-left: 6%;
+}
